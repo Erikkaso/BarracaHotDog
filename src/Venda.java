@@ -47,7 +47,7 @@ public class Venda {
 
 		System.out.println("Qual ingredientes quer por?");
 		for (int i = 0; i < 4; i++) {
-			System.out.println((i + 1) + ". " + alunos[aux].hotdog.queijo[i]);
+			System.out.println((i + 1) + ". " + alunos[aux].hotdog.ingredientes[i]);
 		}
 		alunos[aux].hotdog.idIngredientes[0] = input.nextInt() - 1;
 
